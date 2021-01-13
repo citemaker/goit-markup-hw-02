@@ -27,7 +27,7 @@ body {
   color: var(--title-color);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-style: 400;
+  font-style: normal;
   letter-spacing: 0.03em;
 }
 
@@ -70,7 +70,6 @@ body {
 /* сбрасывает точки в списках */
 .list {
   list-style-type: none;
-
 }
 a.link {
   color: var(--title-color);
@@ -209,26 +208,24 @@ a.link {
   background: var(--bg-second);
 }
 
-.filter .button:hover, {
+.filter .button:hover,
 .filter .button:focus {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
 
- .gallery.list .title{
+.gallery .gallery-title {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: red;
 }
 
-.gallery .text {
+.gallery .gallery-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
-
 }
