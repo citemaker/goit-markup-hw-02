@@ -27,7 +27,7 @@ body {
   color: var(--title-color);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-style: normal;
+  font-style: 400;
   letter-spacing: 0.03em;
 }
 
@@ -50,14 +50,17 @@ body {
 
 /* Site nav */
 
-.site-nav .link {
+.site-nav .link,
+.contact-nav .link {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.contact-nav .text.link:hover,
+.contact-nav .text.link:focus {
   color: var(--accent-color);
 }
 
@@ -67,17 +70,17 @@ body {
 /* сбрасывает точки в списках */
 .list {
   list-style-type: none;
+
 }
 a.link {
   color: var(--title-color);
 }
 
 .text.link {
+  font-weight: 500;
+  line-height: 1.14;
   color: var(--text-color);
   text-decoration: none;
-}
-.contact-nav .text.link:hover {
-  color: var(--accent-color);
 }
 
 /* акцент на текущей странице */
@@ -113,11 +116,13 @@ a.link {
 /* / Герой */
 /* Особенности  */
 .features .title {
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 .features .text {
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -130,18 +135,23 @@ a.link {
 
 /* Наша команда */
 .section .title {
-  font-size: 36px;
   font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
   line-height: 1.17;
+  text-align: center;
 }
 
 .team .title {
+  font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
+  text-align: center;
 }
 .team .text {
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.19;
   color: var(--text-color);
@@ -154,22 +164,31 @@ a.link {
 }
 .logo.footer {
   font-family: Raleway;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--secondary-accent-color);
 }
 
-.footer address {
+.footer .address {
   line-height: 1.71;
   color: var(--secondary-accent-color);
+  font-style: normal;
+  font-weight: 400;
 }
 .footer .contacts a {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
   text-decoration: none;
 }
+.contacts.list a.text:hover,
+.contacts.list a.text:focus {
+  color: var(--accent-color);
+}
+
 .contacts .address {
   color: var(--secondary-accent-color);
 }
@@ -177,33 +196,38 @@ a.link {
 
 /* =============Portfolio Page========== */
 .button {
-  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter .button {
   color: var(--title-color);
   background: var(--bg-second);
 }
 
-.filter .button:hover {
+.filter .button:hover, {
+.filter .button:focus {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
-.portfolio-gallery .title {
-  font-size: 18px;
+.gallery.list .title {
+  font-style: normal;
   font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: left;
+  text-decoration: none;
+  /* text-align: left; */
 }
-
-.portfolio-gallery .list {
+/* 
+.gallery.list > li >a.link{
   color: var(--title-color);
   text-decoration: none;
-}
-.portfolio-gallery .text {
+} */
+.gallery.list .text {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
