@@ -74,6 +74,7 @@ body {
 }
 a.link {
   color: var(--title-color);
+  text-decoration: none;
 }
 
 .text.link {
@@ -213,23 +214,21 @@ a.link {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
-.gallery.list .title {
+
+ .gallery.list .title{
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
-  /* text-align: left; */
+  color: red;
 }
-/* 
-.gallery.list > li >a.link{
-  color: var(--title-color);
-  text-decoration: none;
-} */
-.gallery.list .text {
-  color: var(--text-color);
+
+.gallery .text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  color: var(--text-color);
+
 }
