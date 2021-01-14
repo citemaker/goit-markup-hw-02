@@ -91,9 +91,6 @@ a.link {
 /* /Шапка сайта */
 /* Герой */
 .hero {
-  background: var(--bg-accent);
-  width: 1600px;
-  height: 600px;
   font-family: "Roboto", sans-serif;
 }
 .hero .title {
