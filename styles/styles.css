@@ -203,9 +203,10 @@ a.link {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter .button {
+.button.list {
   color: var(--title-color);
   background: var(--bg-second);
+  text-decoration: none;
 }
 
 .filter .button:hover,
