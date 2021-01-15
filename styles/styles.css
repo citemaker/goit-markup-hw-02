@@ -92,6 +92,7 @@ a.link {
 /* Герой */
 .hero {
   font-family: "Roboto", sans-serif;
+  background: var(--bg-accent);
 }
 .hero .title {
   color: var(--secondary-accent-color);
