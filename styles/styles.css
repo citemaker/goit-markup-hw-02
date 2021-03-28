@@ -110,6 +110,7 @@ a.link {
   letter-spacing: 0.06em;
   color: var(--secondary-accent-color);
   background: var(--accent-color);
+  cursor: pointer;
 }
 /* / Герой */
 /* Особенности  */
@@ -120,7 +121,6 @@ a.link {
   text-transform: uppercase;
 }
 .features .text {
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -134,14 +134,13 @@ a.link {
 /* Наша команда */
 .section .title {
   font-weight: 700;
-  font-style: normal;
+
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
 .team .title {
-  font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -149,8 +148,7 @@ a.link {
 }
 .team .text {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   line-height: 1.19;
   color: var(--text-color);
 }
@@ -162,7 +160,7 @@ a.link {
 }
 .logo.footer {
   font-family: Raleway;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -170,15 +168,12 @@ a.link {
 }
 
 .footer .address {
+  font-style: normal;
   line-height: 1.71;
   color: var(--secondary-accent-color);
-  font-style: normal;
-  font-weight: 400;
 }
 .footer .contacts a {
   color: var(--text-color);
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
 }
@@ -194,12 +189,12 @@ a.link {
 
 /* =============Portfolio Page========== */
 .button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button.list {
   color: var(--title-color);
@@ -215,7 +210,6 @@ a.link {
 
 .gallery .gallery-title {
   color: var(--title-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -223,7 +217,6 @@ a.link {
 }
 
 .gallery .gallery-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
